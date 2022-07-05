@@ -4,7 +4,7 @@ Covalon Expedition Module
 
 Buckle up fuckos we're on a crash course to learning how the fuck github works and it's the blind leading the blind.
 
-When you wanna update the mentors module you need to follow these steps:
+When you wanna update the expedition module you need to follow these steps:
 
 1.Complete all of the updates you need to make in Foundry. Update actor sheets, images, etc.
 
