@@ -6,7 +6,7 @@
     "authors": [],
     "url": "https://github.com/TanglesTheHobbit/CovalonExpeditions",
     "flags": {},
-    "version": "4.1.0",
+    "version": "4.1.2",
     "minimumCoreVersion": "9",
     "compatibleCoreVersion": "9.269",
     "scripts": [],
@@ -154,7 +154,7 @@
     "dependencies": [],
     "socket": false,
     "manifest": "https://github.com/TanglesTheHobbit/CovalonExpeditions/releases/latest/download/module.json",
-    "download": "https://github.com/TanglesTheHobbit/CovalonExpeditions/releases/download/v4.1.0/module.zip",
+    "download": "https://github.com/TanglesTheHobbit/CovalonExpeditions/releases/download/v4.1.2/module.zip",
     "protected": false,
     "coreTranslation": false,
     "library": false
