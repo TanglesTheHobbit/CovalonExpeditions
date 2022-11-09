@@ -1,22 +1,42 @@
 {
-    "name": "covalon-expeditions",
-    "title": "Covalon Expeditions",
-    "description": "This module contains the content for Covalon's expedition adventure type.",
-    "author": "Kipza Quickclaw",
-    "authors": [],
-    "url": "https://github.com/TanglesTheHobbit/CovalonExpeditions",
-    "flags": {},
-    "version": "4.2.1",
-    "compatibility": {
-   	 "minimum": 10,
-   	 "verified": 10.120,
-    	"maximum": 10
+  "id": "CovalonExpeditions",
+  "title": "Covalon Expeditions",
+  "description": "This module contains the content for Covalon's expedition adventure type.",
+  "version": "This is auto replaced",
+  "library": "false",
+  "manifestPlusVersion": "1.2.0",
+  "compatibility": {
+    "minimum": 10,
+    "verified": 10,
+    "maximum": 11
   },
-    "scripts": [],
-    "esmodules": [],
-    "styles": [],
-    "languages": [],
-    "packs": [
+  "authors": [
+    {
+      "name": "Arto Applefield",
+      "url": "https://github.com/TanglesTheHobbit/CovalonExpeditions"
+    }
+  ],
+  "relationships": {
+    "systems": ["pf2e"],
+    "requires": ["pf2e"]
+  },
+  "esmodules": [
+    "scripts/module.js"
+  ],
+  "scripts": [
+    "scripts/lib/lib.js"
+  ],
+  "styles": [
+    "styles/module.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
+    }
+  ],
+ "packs": [
         {
             "name": "covalon-expeditions-ikouga",
             "label": "Covalon Expeditions - Ikouga",
@@ -153,22 +173,9 @@
             "private": true
         }
     ],
-      "relationships": {
-    "systems": [
-      {
-        "id": "pf2e",
-        "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
-        "compatibility": {
-          "minimum": "3.13.6",
-          "verified": "4.3.4"
-        }
-      }
-    ],
-    "socket": false,
-    "manifest": "https://github.com/TanglesTheHobbit/CovalonExpeditions/releases/latest/download/module.json",
-    "download": "https://github.com/TanglesTheHobbit/CovalonExpeditions/releases/download/v4.2.1/module.zip",
-    "protected": false,
-    "coreTranslation": false,
-    "library": false
-}
+  "url": "This is auto replaced",
+  "manifest": "This is auto replaced",
+  "download": "This is auto replaced",
+  "license": "LICENSE",
+  "readme": "README.md"
 }
