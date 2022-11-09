@@ -17,25 +17,13 @@
     }
   ],
   "relationships": {
-    "systems": ["pf2e"],
-    "requires": ["pf2e"]
+    "systems": [],
+    "requires": []
   },
-  "esmodules": [
-    "scripts/module.js"
-  ],
-  "scripts": [
-    "scripts/lib/lib.js"
-  ],
-  "styles": [
-    "styles/module.css"
-  ],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "languages/en.json"
-    }
-  ],
+  "esmodules": [],
+  "scripts": [],
+  "styles": [],
+  "languages": [],
  "packs": [
         {
             "name": "covalon-expeditions-ikouga",
@@ -60,6 +48,7 @@
             "label": "Covalon Expeditions - Ikouga Actors",
             "path": "./packs/covalon-expeditions-ikouga-actors.db",
             "entity": "Actor",
+            "system": "pf2e",
             "module": "covalon-expeditions",
             "type": "Actor",
             "private": true
@@ -87,6 +76,7 @@
             "label": "Covalon Expeditions - Gornlar Actors",
             "path": "./packs/covalon-expeditions-gornlar-actors.db",
             "entity": "Actor",
+            "system": "pf2e",
             "module": "covalon-expeditions",
             "type": "Actor",
             "private": true
@@ -114,6 +104,7 @@
             "label": "Covalon Expeditions - Taltain Actors",
             "path": "./packs/covalon-expeditions-taltain-actors.db",
             "entity": "Actor",
+            "system": "pf2e",
             "module": "covalon-expeditions",
             "type": "Actor",
             "private": true
@@ -132,6 +123,7 @@
             "label": "Covalon Expeditions - Primrose Actors",
             "path": "./packs/covalon-expeditions-primrose-actors.db",
             "entity": "Actor",
+            "system": "pf2e",
             "module": "covalon-expeditions",
             "type": "Actor",
             "private": true
@@ -159,6 +151,7 @@
             "label": "Covalon Expeditions - Middlemist Actors",
             "path": "./packs/covalon-expeditions-middlemist-actors.db",
             "entity": "Actor",
+            "system": "pf2e",
             "module": "covalon-expeditions",
             "type": "Actor",
             "private": true
