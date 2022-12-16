@@ -1,30 +1,30 @@
 {
-  "id": "covalon-expeditions",
-  "title": "Covalon Expeditions",
-  "description": "This module contains the content for Covalon's expedition adventure type.",
-  "version": "This is auto replaced",
-  "library": "false",
-  "manifestPlusVersion": "1.2.0",
-  "compatibility": {
-    "minimum": 10,
-    "verified": 10,
-    "maximum": 11
-  },
-  "authors": [
-    {
-      "name": "Arto Applefield",
-      "url": "https://github.com/TanglesTheHobbit/CovalonExpeditions"
-    }
-  ],
-  "relationships": {
-    "systems": [],
-    "requires": []
-  },
-  "esmodules": [],
-  "scripts": [],
-  "styles": [],
-  "languages": [],
- "packs": [
+    "id": "covalon-expeditions",
+    "title": "Covalon Expeditions",
+    "description": "This module contains the content for Covalon's expedition adventure type.",
+    "version": "4.2.4",
+    "library": "false",
+    "manifestPlusVersion": "1.2.0",
+    "compatibility": {
+        "minimum": 10,
+        "verified": 10,
+        "maximum": 11
+    },
+    "authors": [
+        {
+            "name": "Arto Applefield",
+            "url": "https://github.com/TanglesTheHobbit/CovalonExpeditions"
+        }
+    ],
+    "relationships": {
+        "systems": [],
+        "requires": []
+    },
+    "esmodules": [],
+    "scripts": [],
+    "styles": [],
+    "languages": [],
+    "packs": [
         {
             "name": "covalon-expeditions-ikouga",
             "label": "Covalon Expeditions - Ikouga",
@@ -164,11 +164,39 @@
             "module": "covalon-expeditions",
             "type": "Scene",
             "private": true
+        },
+{
+            "name": "covalon-expeditions-pudersno",
+            "label": "Covalon Expeditions - Pudersno",
+            "path": "./packs/covalon-expeditions-pudersno.db",
+            "entity": "JournalEntry",
+            "module": "covalon-expeditions",
+            "type": "JournalEntry",
+            "private": true
+        },
+        {
+            "name": "covalon-expeditions-pudersno-actors",
+            "label": "Covalon Expeditions - Pudersno Actors",
+            "path": "./packs/covalon-expeditions-pudersno-actors.db",
+            "entity": "Actor",
+            "system": "pf2e",
+            "module": "covalon-expeditions",
+            "type": "Actor",
+            "private": true
+        },
+        {
+            "name": "covalon-expeditions-pudersno-scenes",
+            "label": "Covalon Expeditions - Pudersno Scenes",
+            "path": "./packs/covalon-expeditions-pudersno-scenes.db",
+            "entity": "Scene",
+            "module": "covalon-expeditions",
+            "type": "Scene",
+            "private": true
         }
     ],
-  "url": "This is auto replaced",
-  "manifest": "This is auto replaced",
-  "download": "This is auto replaced",
-  "license": "LICENSE",
-  "readme": "README.md"
+    "url": "https://github.com/TanglesTheHobbit/CovalonExpeditions",
+    "manifest": "https://github.com/TanglesTheHobbit/CovalonExpeditions/releases/latest/download/module.json",
+    "download": "https://github.com/TanglesTheHobbit/CovalonExpeditions/releases/download/v4.2.4/module.zip",
+    "license": "LICENSE",
+    "readme": "README.md"
 }
