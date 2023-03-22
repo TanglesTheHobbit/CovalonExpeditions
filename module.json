@@ -1,212 +1,227 @@
 {
-    "id": "covalon-expeditions",
-    "title": "Covalon Expeditions",
-    "description": "This module contains the content for Covalon's expedition adventure type.",
-    "version": "4.2.4",
-    "library": "false",
-    "manifestPlusVersion": "1.2.0",
-    "compatibility": {
-        "minimum": 10,
-        "verified": 10,
-        "maximum": 11
-    },
-    "authors": [
-        {
-            "name": "Arto Applefield",
-            "url": "https://github.com/TanglesTheHobbit/CovalonExpeditions"
-        }
-    ],
-    "relationships": {
-        "systems": [],
-        "requires": []
-    },
-    "esmodules": [],
-    "scripts": [],
-    "styles": [],
-    "languages": [],
-    "packs": [
-        {
-            "name": "covalon-expeditions-ikouga",
-            "label": "Covalon Expeditions - Ikouga",
-            "path": "./packs/covalon-expeditions-ikouga.db",
-            "entity": "JournalEntry",
-            "module": "covalon-expeditions",
-            "type": "JournalEntry",
-            "private": true
-        },
-        {
-            "name": "covalon-expeditions-ikouga-scenes",
-            "label": "Covalon Expeditions - Ikouga Scenes",
-            "path": "./packs/covalon-expeditions-ikouga-scenes.db",
-            "entity": "Scene",
-            "module": "covalon-expeditions",
-            "type": "Scene",
-            "private": true
-        },
-        {
-            "name": "covalon-expeditions-ikouga-actors",
-            "label": "Covalon Expeditions - Ikouga Actors",
-            "path": "./packs/covalon-expeditions-ikouga-actors.db",
-            "entity": "Actor",
-            "system": "pf2e",
-            "module": "covalon-expeditions",
-            "type": "Actor",
-            "private": true
-        },
-        {
-            "name": "covalon-expeditions-gornlar-scenes",
-            "label": "Covalon Expeditions - Gornlar Scenes",
-            "path": "./packs/covalon-expeditions-gornlar-scenes.db",
-            "entity": "Scene",
-            "module": "covalon-expeditions",
-            "type": "Scene",
-            "private": true
-        },
-        {
-            "name": "covalon-expeditions-gornlar",
-            "label": "Covalon Expeditions - Gornlar",
-            "path": "./packs/covalon-expeditions-gornlar.db",
-            "entity": "JournalEntry",
-            "module": "covalon-expeditions",
-            "type": "JournalEntry",
-            "private": true
-        },
-        {
-            "name": "covalon-expeditions-gornlar-actors",
-            "label": "Covalon Expeditions - Gornlar Actors",
-            "path": "./packs/covalon-expeditions-gornlar-actors.db",
-            "entity": "Actor",
-            "system": "pf2e",
-            "module": "covalon-expeditions",
-            "type": "Actor",
-            "private": true
-        },
-        {
-            "name": "covalon-expeditions-taltain-scenes",
-            "label": "Covalon Expeditions - Taltain Scenes",
-            "path": "./packs/covalon-expeditions-taltain-scenes.db",
-            "entity": "Scene",
-            "module": "covalon-expeditions",
-            "type": "Scene",
-            "private": true
-        },
-        {
-            "name": "covalon-expeditions-taltain",
-            "label": "Covalon Expeditions - Taltain",
-            "path": "./packs/covalon-expeditions-taltain.db",
-            "entity": "JournalEntry",
-            "module": "covalon-expeditions",
-            "type": "JournalEntry",
-            "private": true
-        },
-        {
-            "name": "covalon-expeditions-taltain-actors",
-            "label": "Covalon Expeditions - Taltain Actors",
-            "path": "./packs/covalon-expeditions-taltain-actors.db",
-            "entity": "Actor",
-            "system": "pf2e",
-            "module": "covalon-expeditions",
-            "type": "Actor",
-            "private": true
-        },
-        {
-            "name": "covalon-expeditions-rescue-the-rats-actors",
-            "label": "Covalon Expeditions - Rescue The Rats Actors",
-            "path": "./packs/covalon-expeditions-rescue-the-rats-actors.db",
-            "entity": "Actor",
-            "system": "pf2e",
-            "module": "covalon-expeditions",
-            "type": "Actor",
-            "private": true
-        },
-        {
-            "name": "covalon-expeditions-primrose",
-            "label": "Covalon Expeditions - Primrose",
-            "path": "./packs/covalon-expeditions-primrose.db",
-            "entity": "JournalEntry",
-            "module": "covalon-expeditions",
-            "type": "JournalEntry",
-            "private": true
-        },
-        {
-            "name": "covalon-expeditions-primrose-actors",
-            "label": "Covalon Expeditions - Primrose Actors",
-            "path": "./packs/covalon-expeditions-primrose-actors.db",
-            "entity": "Actor",
-            "system": "pf2e",
-            "module": "covalon-expeditions",
-            "type": "Actor",
-            "private": true
-        },
-        {
-            "name": "covalon-expeditions-primrose-scenes",
-            "label": "Covalon Expeditions - Primrose Scenes",
-            "path": "./packs/covalon-expeditions-primrose-scenes.db",
-            "entity": "Scene",
-            "module": "covalon-expeditions",
-            "type": "Scene",
-            "private": true
-        },
-        {
-            "name": "covalon-expeditions-middlemist",
-            "label": "Covalon Expeditions - Middlemist",
-            "path": "./packs/covalon-expeditions-middlemist.db",
-            "entity": "JournalEntry",
-            "module": "covalon-expeditions",
-            "type": "JournalEntry",
-            "private": true
-        },
-        {
-            "name": "covalon-expeditions-middlemist-actors",
-            "label": "Covalon Expeditions - Middlemist Actors",
-            "path": "./packs/covalon-expeditions-middlemist-actors.db",
-            "entity": "Actor",
-            "system": "pf2e",
-            "module": "covalon-expeditions",
-            "type": "Actor",
-            "private": true
-        },
-        {
-            "name": "covalon-expeditions-middlemist-scenes",
-            "label": "Covalon Expeditions - Middlemist Scenes",
-            "path": "./packs/covalon-expeditions-middlemist-scenes.db",
-            "entity": "Scene",
-            "module": "covalon-expeditions",
-            "type": "Scene",
-            "private": true
-        },
-{
-            "name": "covalon-expeditions-pudersno",
-            "label": "Covalon Expeditions - Pudersno",
-            "path": "./packs/covalon-expeditions-pudersno.db",
-            "entity": "JournalEntry",
-            "module": "covalon-expeditions",
-            "type": "JournalEntry",
-            "private": true
-        },
-        {
-            "name": "covalon-expeditions-pudersno-actors",
-            "label": "Covalon Expeditions - Pudersno Actors",
-            "path": "./packs/covalon-expeditions-pudersno-actors.db",
-            "entity": "Actor",
-            "system": "pf2e",
-            "module": "covalon-expeditions",
-            "type": "Actor",
-            "private": true
-        },
-        {
-            "name": "covalon-expeditions-pudersno-scenes",
-            "label": "Covalon Expeditions - Pudersno Scenes",
-            "path": "./packs/covalon-expeditions-pudersno-scenes.db",
-            "entity": "Scene",
-            "module": "covalon-expeditions",
-            "type": "Scene",
-            "private": true
-        }
-    ],
-    "url": "https://github.com/TanglesTheHobbit/CovalonExpeditions",
-    "manifest": "https://github.com/TanglesTheHobbit/CovalonExpeditions/releases/latest/download/module.json",
-    "download": "https://github.com/TanglesTheHobbit/CovalonExpeditions/releases/download/v4.2.4/module.zip",
-    "license": "LICENSE",
-    "readme": "README.md"
+	"id": "covalon-expeditions",
+	"title": "Covalon Expeditions",
+	"description": "This module contains the content for Covalon's expedition adventure type.",
+	"version": "6.0.0",
+	"library": "false",
+	"manifestPlusVersion": "1.2.0",
+	"compatibility": {
+		"minimum": 10,
+		"verified": 10,
+		"maximum": 11
+	},
+	"authors": [{
+		"name": "Arto Applefield",
+		"url": "https://github.com/TanglesTheHobbit/CovalonExpeditions"
+	}],
+	"relationships": {
+		"systems": [],
+		"requires": []
+	},
+	"esmodules": [],
+	"scripts": [],
+	"styles": [],
+	"languages": [],
+	"packs": [{
+			"name": "covalon-expeditions-ikouga",
+			"label": "Covalon Expeditions - Ikouga",
+			"path": "./packs/covalon-expeditions-ikouga.db",
+			"entity": "JournalEntry",
+			"module": "covalon-expeditions",
+			"type": "JournalEntry",
+			"private": true
+		},
+		{
+			"name": "covalon-expeditions-ikouga-scenes",
+			"label": "Covalon Expeditions - Ikouga Scenes",
+			"path": "./packs/covalon-expeditions-ikouga-scenes.db",
+			"entity": "Scene",
+			"module": "covalon-expeditions",
+			"type": "Scene",
+			"private": true
+		},
+		{
+			"name": "covalon-expeditions-ikouga-actors",
+			"label": "Covalon Expeditions - Ikouga Actors",
+			"path": "./packs/covalon-expeditions-ikouga-actors.db",
+			"entity": "Actor",
+			"system": "pf2e",
+			"module": "covalon-expeditions",
+			"type": "Actor",
+			"private": true
+		},
+		{
+			"name": "covalon-expeditions-gornlar-scenes",
+			"label": "Covalon Expeditions - Gornlar Scenes",
+			"path": "./packs/covalon-expeditions-gornlar-scenes.db",
+			"entity": "Scene",
+			"module": "covalon-expeditions",
+			"type": "Scene",
+			"private": true
+		},
+		{
+			"name": "covalon-expeditions-gornlar",
+			"label": "Covalon Expeditions - Gornlar",
+			"path": "./packs/covalon-expeditions-gornlar.db",
+			"entity": "JournalEntry",
+			"module": "covalon-expeditions",
+			"type": "JournalEntry",
+			"private": true
+		},
+		{
+			"name": "covalon-expeditions-gornlar-actors",
+			"label": "Covalon Expeditions - Gornlar Actors",
+			"path": "./packs/covalon-expeditions-gornlar-actors.db",
+			"entity": "Actor",
+			"system": "pf2e",
+			"module": "covalon-expeditions",
+			"type": "Actor",
+			"private": true
+		},
+		{
+			"name": "covalon-expeditions-taltain-scenes",
+			"label": "Covalon Expeditions - Taltain Scenes",
+			"path": "./packs/covalon-expeditions-taltain-scenes.db",
+			"entity": "Scene",
+			"module": "covalon-expeditions",
+			"type": "Scene",
+			"private": true
+		},
+		{
+			"name": "covalon-expeditions-taltain",
+			"label": "Covalon Expeditions - Taltain",
+			"path": "./packs/covalon-expeditions-taltain.db",
+			"entity": "JournalEntry",
+			"module": "covalon-expeditions",
+			"type": "JournalEntry",
+			"private": true
+		},
+		{
+			"name": "covalon-expeditions-taltain-actors",
+			"label": "Covalon Expeditions - Taltain Actors",
+			"path": "./packs/covalon-expeditions-taltain-actors.db",
+			"entity": "Actor",
+			"system": "pf2e",
+			"module": "covalon-expeditions",
+			"type": "Actor",
+			"private": true
+		},
+		{
+			"name": "covalon-expeditions-primrose",
+			"label": "Covalon Expeditions - Primrose",
+			"path": "./packs/covalon-expeditions-primrose.db",
+			"entity": "JournalEntry",
+			"module": "covalon-expeditions",
+			"type": "JournalEntry",
+			"private": true
+		},
+		{
+			"name": "covalon-expeditions-primrose-actors",
+			"label": "Covalon Expeditions - Primrose Actors",
+			"path": "./packs/covalon-expeditions-primrose-actors.db",
+			"entity": "Actor",
+			"system": "pf2e",
+			"module": "covalon-expeditions",
+			"type": "Actor",
+			"private": true
+		},
+		{
+			"name": "covalon-expeditions-primrose-scenes",
+			"label": "Covalon Expeditions - Primrose Scenes",
+			"path": "./packs/covalon-expeditions-primrose-scenes.db",
+			"entity": "Scene",
+			"module": "covalon-expeditions",
+			"type": "Scene",
+			"private": true
+		},
+		{
+			"name": "covalon-expeditions-middlemist",
+			"label": "Covalon Expeditions - Middlemist",
+			"path": "./packs/covalon-expeditions-middlemist.db",
+			"entity": "JournalEntry",
+			"module": "covalon-expeditions",
+			"type": "JournalEntry",
+			"private": true
+		},
+		{
+			"name": "covalon-expeditions-middlemist-actors",
+			"label": "Covalon Expeditions - Middlemist Actors",
+			"path": "./packs/covalon-expeditions-middlemist-actors.db",
+			"entity": "Actor",
+			"system": "pf2e",
+			"module": "covalon-expeditions",
+			"type": "Actor",
+			"private": true
+		},
+		{
+			"name": "covalon-expeditions-middlemist-scenes",
+			"label": "Covalon Expeditions - Middlemist Scenes",
+			"path": "./packs/covalon-expeditions-middlemist-scenes.db",
+			"entity": "Scene",
+			"module": "covalon-expeditions",
+			"type": "Scene",
+			"private": true
+		},
+		{
+			"name": "covalon-expeditions-pudersno",
+			"label": "Covalon Expeditions - Pudersno",
+			"path": "./packs/covalon-expeditions-pudersno.db",
+			"entity": "JournalEntry",
+			"module": "covalon-expeditions",
+			"type": "JournalEntry",
+			"private": true
+		},
+		{
+			"name": "covalon-expeditions-pudersno-actors",
+			"label": "Covalon Expeditions - Pudersno Actors",
+			"path": "./packs/covalon-expeditions-pudersno-actors.db",
+			"entity": "Actor",
+			"system": "pf2e",
+			"module": "covalon-expeditions",
+			"type": "Actor",
+			"private": true
+		},
+		{
+			"name": "covalon-expeditions-pudersno-scenes",
+			"label": "Covalon Expeditions - Pudersno Scenes",
+			"path": "./packs/covalon-expeditions-pudersno-scenes.db",
+			"entity": "Scene",
+			"module": "covalon-expeditions",
+			"type": "Scene",
+			"private": true
+		},
+		{
+			"name": "covalon-expeditions-ratchethallow",
+			"label": "Covalon Expeditions - Ratchethallow",
+			"path": "./packs/covalon-expeditions-ratchethallow.db",
+			"entity": "JournalEntry",
+			"module": "covalon-expeditions",
+			"type": "JournalEntry",
+			"private": true
+		},
+		{
+			"name": "covalon-expeditions-ratchethallow-actors",
+			"label": "Covalon Expeditions - Ratchethallow Actors",
+			"path": "./packs/covalon-expeditions-ratchethallow-actors.db",
+			"entity": "Actor",
+			"system": "pf2e",
+			"module": "covalon-expeditions",
+			"type": "Actor",
+			"private": true
+		},
+		{
+			"name": "covalon-expeditions-ratchethallow-scenes",
+			"label": "Covalon Expeditions - Ratchethallow Scenes",
+			"path": "./packs/covalon-expeditions-ratchethallow-scenes.db",
+			"entity": "Scene",
+			"module": "covalon-expeditions",
+			"type": "Scene",
+			"private": true
+		}
+	],
+	"url": "https://github.com/TanglesTheHobbit/CovalonExpeditions",
+	"manifest": "https://github.com/TanglesTheHobbit/CovalonExpeditions/releases/latest/download/module.json",
+	"download": "https://github.com/TanglesTheHobbit/CovalonExpeditions/releases/download/v6.0.0/module.zip",
+	"license": "LICENSE",
+	"readme": "README.md"
 }
